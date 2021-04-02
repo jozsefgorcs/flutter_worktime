@@ -16,17 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text(
-            'Worktime calculator',
-            style: TEXT_THEME_DEFAULT.bodyText2,
-          ),
-          backgroundColor: COLOR_DARK,
-        ),
-        body: LandingPage(),
-        backgroundColor: COLOR_BLUE,
-      ),
+      home: LandingPage(),
     );
   }
 }
